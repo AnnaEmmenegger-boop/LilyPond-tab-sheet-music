@@ -5,16 +5,18 @@
   composer = "Anna Emmenegger"
 }
 
-emptyStrings = {
-  e, a, d g b e'
+noten = {
+  e8 a d'4 g'2 b'1 e''
 }
 
 \new StaffGroup <<
   \new Staff {
     \time 4/4
-    \emptyStrings
+    \noten
   }
   \new TabStaff {
-    \emptyStrings
+    \clef moderntab
+    \set Staff.stringTunings = \stringTuning <e a d' g' b' e''>
+    \noten
   }
 >>
