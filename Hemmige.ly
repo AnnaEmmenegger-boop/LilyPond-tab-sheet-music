@@ -20,18 +20,18 @@ noten = {
     { gis'2 fis'4 e' b2 r4 r8 }
     { gis'2 fis'4 d' e'2 <e b e' gis' cis'' e''> }
   }
+
+  \bar "|."
 }
 
 \new StaffGroup <<
   \new Staff {
     \time 4/4
     \noten
-    \bar "|."
   }
   \new TabStaff {
     \clef moderntab
     \set Staff.stringTunings = \stringTuning <e a d' g' b' e''>
     \noten
-    \bar "|."
   }
 >>

@@ -8,6 +8,8 @@
 intro = {
   <a d'>4( <d'' e''> d'') <cis'' a'>8 <gis' b' e''>
   r <gis' b' e''> r e cis''( b') gis' e'
+
+  \bar "|."
 }
 
 riff = {
@@ -17,6 +19,8 @@ riff = {
     d'4( e'' d'') a'8 <gis' b' e''>
     r <gis' b' e''> r e cis''( b') gis' e'
   }
+
+  \bar "|."
 }
 
 bridge = {
@@ -26,6 +30,8 @@ bridge = {
   <fis'' d'' b' fis' b>2 <fis' b>8 <fis' b> gis( fis)
   <e b e' gis' b' e''>8 <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''>
   <e b e' gis' b' e''> <e b e' gis' b' e''> <d' a'>16 <d' a'> |
+
+  \bar "|."
 }
 
 \new StaffGroup <<
